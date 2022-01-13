@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["@dcloudio/types"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@com/*": ["./src/components/*"],
+      "@hook/*": ["./src/hooks/*"],
+      "@hook": ["./src/hooks/index"],
+      "@api/*": ["./src/api/*"],
+      "@api": ["./src/api/index"],
+      "@bus/*": ["./src/business/*"],
+      "@bus": ["./src/business/index"],
+      "@type/*": ["./src/types/*"],
+      "@type": ["./src/types/index"],
+      "@util/*": ["./src/utils/*"],
+      "@util": ["./src/utils/index"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

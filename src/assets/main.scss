@@ -1,0 +1,12 @@
+// @import './var.scss';
+@import './h5.scss';
+@import './wx.scss';
+
+.default-page {
+  @extend .full-screen;
+  background: var(--bg);
+}
+
+.ml5 {
+  margin-left: 5px;
+}
